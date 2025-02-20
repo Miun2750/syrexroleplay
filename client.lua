@@ -1,3 +1,4 @@
+-- Miun
 local epinWindow, epinEdit, epinButton
 
 function toggleEPinPanel()
@@ -6,7 +7,7 @@ function toggleEPinPanel()
         local windowW, windowH = 450, 200
         local x, y = (screenW - windowW) / 2, (screenH - windowH) / 2
 
-        epinWindow = guiCreateWindow(x, y, windowW, windowH, "faroid.exe ~ E-Pin Sistemi", false)
+        epinWindow = guiCreateWindow(x, y, windowW, windowH, "Syrex Roleplay ~ E-Pin Sistemi", false)
         guiWindowSetSizable(epinWindow, false)
         guiSetVisible(epinWindow, true)
 
