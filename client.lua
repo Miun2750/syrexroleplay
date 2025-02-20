@@ -38,4 +38,4 @@ function toggleEPinPanel()
 end
 addCommandHandler("epin", toggleEPinPanel)
 
--- Discord: faroid.exe
+-- Discord: miun2750
